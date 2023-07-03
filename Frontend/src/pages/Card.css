@@ -1,0 +1,13 @@
+.card-content {
+    color: black !important;
+}
+
+box-card{
+        box-shadow: 50px 50px 30px grey;
+}
+.bg-image{
+    background-image: linear-gradient(45deg,#e5e6ec,#f2f231);
+}
+h1{
+    color: purple;
+}
