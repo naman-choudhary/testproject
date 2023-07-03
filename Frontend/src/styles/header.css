@@ -102,8 +102,9 @@
 /* ================ main navbar styles =========== */
 
 .main__navbar {
-  padding: 15px 0px;
+  padding: 22px 0px;
   background: #000d6b;
+  height:4rem;
 }
 
 .mobile__menu i {
