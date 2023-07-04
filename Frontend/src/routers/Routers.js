@@ -14,6 +14,7 @@ import AllOrders from "../pages/AllOrders";
 import Orders from "../pages/Orders";
 import AddProduct from "../pages/AddProduct";
 import Cart from "../pages/Cart";
+import Dashboard from "../pages/Dashboard";
 
 const Routers = () => {
   return (
@@ -30,7 +31,7 @@ const Routers = () => {
       
       <Route path="/signin" element={<Signin />} />
       <Route path="/reset-password" element={<ForgotPassword />} />
-
+      <Route path="/owner/dashboard" element={<Dashboard />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/my-orders" element={<Orders/>}/>
       <Route path="/owner/add-product" element={<AddProduct/>}/>
