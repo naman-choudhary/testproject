@@ -4,6 +4,7 @@ import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
 import { useParams } from "react-router-dom";
 import Helmet from "../components/Helmet";
 import { Link } from "react-router-dom";
+import Animate from "../Animate";
 
 import commentImg from "../assets/all-images/ava-1.jpg";
 
@@ -35,6 +36,7 @@ const BlogDetails = () => {
   }
 
   return (
+    <Animate>
     <Helmet title={blog.title}>
       <section>
         <Container>
@@ -133,6 +135,7 @@ const BlogDetails = () => {
         </Container>
       </section>
     </Helmet>
+    </Animate>
   );
 };
 

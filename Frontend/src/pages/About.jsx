@@ -1,4 +1,5 @@
 import React from "react";
+import Animate from "../Animate";
 
 import CommonSection from "../components/CommonSection";
 import Helmet from "../components/Helmet";
@@ -12,6 +13,7 @@ import "../styles/about.css";
 
 const About = () => {
   return (
+    <Animate>
     <Helmet title="About">
       <CommonSection title="About Us" />
       <AboutSection aboutClass="aboutPage" />
@@ -75,6 +77,7 @@ const About = () => {
         </Container>
       </section>
     </Helmet>
+    </Animate>
   );
 };
 

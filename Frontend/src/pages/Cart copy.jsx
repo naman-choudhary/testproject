@@ -13,6 +13,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
+import Animate from "../Animate";
 
 const BASE_URL = "http://localhost:8000/api/v1";
 
@@ -118,8 +119,9 @@ const Cart = () => {
   };
 
   return (
+    <Animate>
     <React.Fragment>
-      <Heade
+      <Header>
       <br /><br /><br />
       {cartItems && cartItems.length !== 0 ? (
         <Box sx={{ marginTop: 15, margin: 10 }}>
@@ -240,7 +242,9 @@ const Cart = () => {
           </Button>
         </DialogActions>
       </Dialog>
+      </Header>
     </React.Fragment>
+    </Animate>
   );
 };
 

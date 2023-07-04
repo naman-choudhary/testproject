@@ -5,6 +5,7 @@ import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
 import Helmet from "../components/Helmet";
 import CommonSection from "../components/CommonSection";
 import "../styles/contact.css";
+import Animate from "../Animate";
 
 const socialLinks = [
 	{
@@ -43,6 +44,7 @@ const Contact = () => {
 			});
 	};
 	return (
+		<Animate>
 		<Helmet title="Contact">
 			<CommonSection title="Contact" />
 			<section>
@@ -119,6 +121,7 @@ const Contact = () => {
 				</Container>
 			</section>
 		</Helmet>
+		</Animate>
 	);
 };
 

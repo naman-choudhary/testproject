@@ -12,11 +12,23 @@ import CarItem from "../components/CarItem";
 import BecomeDriverSection from "../components/BecomeDriverSection";
 import Testimonial from "../components/Testimonial";
 import ProductList from "../components/ProductList";
+import Animate from "../Animate";
+
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+import { useEffect } from "react";
 
 import BlogList from "../components/BlogList";
 
+
+
 const Home = () => {
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+  },[]);
   return (
+    <Animate>
     <Helmet title="Home">
       {/* ============= hero section =========== */}
       <section className="p-0 hero__slider-section">
@@ -100,6 +112,7 @@ const Home = () => {
       </section>
       <ProductList />
     </Helmet>
+    </Animate>
   );
 };
 

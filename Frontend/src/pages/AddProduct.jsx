@@ -11,7 +11,7 @@ import axios from "axios";
 import Alert from "@mui/material/Alert";
 import { useNavigate } from "react-router-dom";
 import { InputLabel, FormControl, Select, MenuItem } from "@mui/material";
-
+import Animate from '../Animate';
 import Header from '../components/Header';
 
 
@@ -79,6 +79,7 @@ const AddProduct = () => {
 
 
   return (
+    <Animate>
     <ThemeProvider theme={theme}>
       <Container style={{ marginTop: 140 }} component="main" maxWidth="xs">
         <CssBaseline />
@@ -178,6 +179,7 @@ const AddProduct = () => {
        
       </Container>
     </ThemeProvider>
+    </Animate>
   );
 }
 

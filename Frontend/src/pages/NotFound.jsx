@@ -1,7 +1,8 @@
 import React from "react";
+import Animate from "../Animate";
 
 const NotFound = () => {
-  return <div>NotFound</div>;
+  return <Animate><div>NotFound</div></Animate>;
 };
 
 export default NotFound;

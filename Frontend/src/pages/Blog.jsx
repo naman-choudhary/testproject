@@ -6,9 +6,11 @@ import Helmet from "../components/Helmet";
 import CommonSection from "../components/CommonSection";
 import BlogList from "../components/BlogList";
 import "../styles/contact.css";
+import Animate from "../Animate";
 
 const GetBlogs = () => {
 	return (
+		<Animate>
 		<Helmet title="Blogs">
 			<CommonSection title="Blogs" />
 			<section>
@@ -19,6 +21,7 @@ const GetBlogs = () => {
 				</Container>
 			</section>
 		</Helmet>
+		</Animate>
 	);
 };
 

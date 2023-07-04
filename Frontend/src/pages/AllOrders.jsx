@@ -7,6 +7,7 @@ import { Grid, Box, Button } from "@mui/material";
 import axios from "axios";
 import Header from "../components/Header";
 import OrderList from "../components/OrderLists";
+import Animate from "../Animate";
 
 const BASE_URL = "http://localhost:8000/api/v1";
 
@@ -49,6 +50,7 @@ const AllOrders = () => {
   };
 
   return (
+    <Animate>
     <div>
       <Box sx={{ marginTop: 10 }}>
       <Button sx={{marginLeft: 80, marginTop: 5}} onClick={()=> navigate("/owner/add-product")} color="primary" variant="contained">Add Food Item</Button>
@@ -62,6 +64,7 @@ const AllOrders = () => {
         </Grid>
       </Box>
     </div>
+    </Animate>
   );
 };
 

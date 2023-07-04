@@ -15,6 +15,7 @@ import LockOpenIcon from "@mui/icons-material/LockOpen";
 import Alert from "@mui/material/Alert";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Animate from "../Animate";
 
 const BASE_URL = "http://localhost:8000/api/v1";
 
@@ -63,6 +64,7 @@ export default function Login({ handleHaveAccount }) {
   };
 
   return (
+    <Animate>
     <div className="App">
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
@@ -148,7 +150,9 @@ export default function Login({ handleHaveAccount }) {
           </Box>
         </Box>
       </Container>
-    </ThemeProvider></div>
+    </ThemeProvider>
+    </div>
+    </Animate>
   );
 }
 

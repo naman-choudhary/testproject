@@ -3,11 +3,14 @@ import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "../styles/car-item.css";
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 const CarItem = (props) => {
 	const { id, image, model, carName, automatic, speed, price } = props.item;
 
 	return (
-		<Col lg="4" md="4" sm="6" className="mb-5">
+		<Col lg="4" md="4" sm="6" className="mb-5" data-aos="fade-down">
 			<div className="car__item">
 				<div className="car__img">
 					{image ? (
