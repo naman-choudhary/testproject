@@ -132,6 +132,16 @@ const Header = () => {
 											All Orders
 										</MenuItem>
 									)}
+									{role === "OWNER" && (
+										<MenuItem
+											onClick={() => {
+												setLogOutAnchorEl(null);
+												navigate("/owner/dashboard");
+											}}
+										>
+											Dashboard
+										</MenuItem>
+									)}
 									<MenuItem
 										onClick={() => {
 											localStorage.clear();
