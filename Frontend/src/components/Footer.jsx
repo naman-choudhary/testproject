@@ -76,7 +76,7 @@ const Footer = () => {
 						</div>
 					</Col>
 
-					<Col lg="3" md="4" sm="12">
+					{/* <Col lg="3" md="4" sm="12">
 						<div className="mb-4">
 							<h5 className="footer__link-title">Newsletter</h5>
 							<p className="section__description">Subscribe our newsletter</p>
@@ -87,7 +87,7 @@ const Footer = () => {
 								</span>
 							</div>
 						</div>
-					</Col>
+					</Col> */}
 
 					<Col lg="12">
 						<div className="footer__bottom">

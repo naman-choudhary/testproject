@@ -10,40 +10,40 @@ const OUR__MEMBERS = [
   {
     name: "Jhon Doe",
     experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
+    fbUrl: "https://www.facebook.com/login/",
+    instUrl: "https://www.instagram.com/accounts/login/",
+    twitUrl: "https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den",
+    linkedinUrl: "https://www.linkedin.com/login",
     imgUrl: ava01,
   },
 
   {
     name: "David Lisa",
     experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
+    fbUrl: "https://www.facebook.com/login/",
+    instUrl: "https://www.instagram.com/accounts/login/",
+    twitUrl: "https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den",
+    linkedinUrl: "https://www.linkedin.com/login",
     imgUrl: ava02,
   },
 
   {
     name: "Hilton King",
     experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
+    fbUrl: "https://www.facebook.com/login/",
+    instUrl: "https://www.instagram.com/accounts/login/",
+    twitUrl: "https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den",
+    linkedinUrl: "https://www.linkedin.com/login",
     imgUrl: ava03,
   },
 
   {
     name: "Jhon Doe",
     experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
+    fbUrl: "https://www.facebook.com/login/",
+    instUrl: "https://www.instagram.com/accounts/login/",
+    twitUrl: "https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%3Flang%3Den",
+    linkedinUrl: "https://www.linkedin.com/login",
     imgUrl: ava01,
   },
 ];
@@ -58,20 +58,20 @@ const OurMembers = () => {
               <img src={item.imgUrl} alt="" className="w-100" />
 
               <div className="single__member-social">
-                <Link to={item.fbUrl}>
+                <a href={item.fbUrl} target="_blank">
                   <i className="ri-facebook-line"></i>
-                </Link>
-                <Link to={item.twitUrl}>
+                </a>
+                <a href={item.twitUrl} target="_blank">
                   <i className="ri-twitter-line"></i>
-                </Link>
+                </a>
 
-                <Link to={item.linkedinUrl}>
+                <a href={item.linkedinUrl} target="_blank">
                   <i className="ri-linkedin-line"></i>
-                </Link>
+                </a>
 
-                <Link to={item.instUrl}>
+                <a href={item.instUrl} target="_blank">
                   <i className="ri-instagram-line"></i>
-                </Link>
+                </a>
               </div>
             </div>
 
