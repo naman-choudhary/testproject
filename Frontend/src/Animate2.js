@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const animations={
-    initial: {opacity:0, x:1000 },
-    animate: {opacity:1, x:0 },
-    exit:{opacity:0 ,x:0 }
+    initial: {opacity:0, y:-1000 },
+    animate: {opacity:1, y:0 },
+    exit:{opacity:0 ,y:0 }
 };
 
-const Animate=({children})=>{
+const Animate2=({children})=>{
     return(
         <motion.div variants={animations}
             initial='initial'
@@ -19,4 +19,4 @@ const Animate=({children})=>{
     )
 }
 
-export default Animate;
+export default Animate2;

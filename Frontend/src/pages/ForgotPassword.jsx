@@ -3,7 +3,7 @@ import axios from "axios";
 
 import { Grid, TextField, Button, Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import Animate from "../Animate";
+import Animate2 from "../Animate2";
 
 const BASE_URL = "http://localhost:8000/api/v1";
 
@@ -45,7 +45,7 @@ const ForgetPassword = () => {
   };
 
   return (
-    <Animate>
+    <Animate2>
     <div style={{ paddingLeft: "30%", paddingTop: 150 }}>
       <Box noValidate sx={{ mt: 3, width: 400 }}>
         <Typography sx={{ marginBottom: 5 }}>Reset Password</Typography>
@@ -81,7 +81,7 @@ const ForgetPassword = () => {
         </Button>
       </Box>
     </div>
-    </Animate>
+    </Animate2>
   );
 };
 

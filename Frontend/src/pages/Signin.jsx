@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
-import Animate from "../Animate";
+import Animate2 from "../Animate2";
 
 const LoginRegister = () => {
   const [haveAccount, setHaveAccount] = useState(true);
@@ -13,7 +13,7 @@ const LoginRegister = () => {
 
 
   return (
-    <Animate>
+    <Animate2>
     <div style={{marginBottom: 50 }}>
       
       {haveAccount ? (
@@ -26,7 +26,7 @@ const LoginRegister = () => {
         />
       )}
     </div>
-    </Animate>
+    </Animate2>
   );
 };
 

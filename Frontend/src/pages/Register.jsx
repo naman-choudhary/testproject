@@ -14,7 +14,7 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import Alert from '@mui/material/Alert';
-import Animate from "../Animate";
+import Animate2 from "../Animate2";
 
 import { MenuItem, InputLabel, FormControl, Select,  } from "@mui/material";
 
@@ -124,7 +124,7 @@ export default function Register({ handleHaveAccount }) {
   };
 
   return (
-    <Animate>
+    <Animate2>
     <div className="App">
       <br /><br />
     <ThemeProvider theme={theme}>
@@ -276,6 +276,6 @@ export default function Register({ handleHaveAccount }) {
       </Container>
     </ThemeProvider>
     </div>
-    </Animate>
+    </Animate2>
   );
 }
