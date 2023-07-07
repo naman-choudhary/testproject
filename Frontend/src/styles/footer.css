@@ -1,5 +1,5 @@
 .footer {
-  background: rgba(5, 195, 11, 0.9);
+  background: rgb(1, 87, 111);
   padding-top: 50px;
   padding-bottom: 15px;
 }
@@ -52,7 +52,7 @@
   padding: 8px 12px;
   border: 1px solid #7c8a972f;
   border-radius: 50px;
-  background: #023f10;
+  background: #013642;
 }
 
 .newsletter input {

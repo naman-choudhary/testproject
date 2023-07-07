@@ -1,12 +1,12 @@
 .payment label {
   font-weight: 600;
-  color: rgba(5, 195, 11, 0.9);
+  color: rgb(1, 87, 111);
 }
 
 .payment button {
   padding: 8px 15px;
   border-radius: 5px;
-  background: rgba(5, 195, 11, 0.9);
+  background: rgb(1, 87, 111);
   color: #fff;
   border: none;
   outline: none;

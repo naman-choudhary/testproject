@@ -2,6 +2,7 @@
   border: 1px solid #7c8a9736;
   padding: 20px;
   border-radius: 5px;
+  background-color: rgb(224, 224, 229);
 }
 
 .car__item-info span i {
@@ -13,7 +14,7 @@
   border-radius: 0;
   border: none;
   outline: none;
-  background: rgba(5, 195, 11, 0.9);
+  background: rgb(1, 87, 111);
   padding: 8px 0px;
 }
 
