@@ -42,10 +42,7 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        I recently rented a car from this service, and I couldn't be happier with the experience. The booking process was quick and easy, and the staff was friendly and professional. The vehicle was clean, well-maintained, and perfect for my needs. I highly recommend this car rental service for their excellent customer service and quality vehicles.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -60,17 +57,14 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        I had a fantastic experience with this car rental service. The pickup and drop-off process at the airport was seamless, and the staff was welcoming and helpful. The car I rented was in great condition and drove smoothly throughout my trip. I appreciated the unlimited mileage option, as it allowed me to explore without any worries. I will definitely be using this car rental service again in the future.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Sarah</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
@@ -78,17 +72,14 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        I highly recommend this car rental service for their outstanding service and competitive rates. The entire process, from making the reservation online to returning the vehicle, was straightforward and convenient. The staff was professional, and the vehicle was spotless and well-maintained. I appreciated their flexibility in accommodating my specific needs. 
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Michael</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>
@@ -96,17 +87,14 @@ const Testimonial = () => {
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        I recently rented a car from this service for a family vacation, and I was thoroughly impressed. The entire experience was seamless, starting from the easy online booking process to the friendly and helpful staff at the pickup location. The car was spacious, clean, and comfortable, making our long drive enjoyable. 
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
+            <h6 className="mb-0 mt-3">Emily</h6>
             <p className="section__description">Customer</p>
           </div>
         </div>

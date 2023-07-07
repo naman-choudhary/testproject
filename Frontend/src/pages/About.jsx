@@ -34,17 +34,11 @@ const About = () => {
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Our fleet of vehicles undergoes regular maintenance and inspections to ensure they are in excellent working condition. We prioritize the safety and reliability of our vehicles to provide you with a worry-free driving experience.
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Our professional drivers are highly trained and experienced in handling different road conditions. They prioritize safe driving practices and adhere to traffic regulations, ensuring your safety throughout the journey.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">

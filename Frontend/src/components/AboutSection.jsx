@@ -20,35 +20,29 @@ const AboutSection = ({ aboutClass }) => {
               <h4 className="section__subtitle">About Us</h4>
               <h2 className="section__title">Welcome to car rent service</h2>
               <p className="section__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum blanditiis esse accusantium dignissimos labore
-                laborum. Veniam, corporis mollitia temporibus, in quaerat vero
-                deleniti amet dolorem repudiandae, pariatur nam dolore! Impedit
-                neque sit ad temporibus quam similique dolor ipsam praesentium
-                sunt.
+              We are delighted to have you as our valued customer and extend a warm welcome to you. Whether you're traveling for business or pleasure, we aim to provide you with a seamless and enjoyable car rental experience.At our car rental service, we understand the importance of convenience, reliability, and exceptional customer service. Our fleet of well-maintained vehicles offers a wide range of options to suit your needs and preferences. From compact cars to spacious SUVs, we have the perfect vehicle to enhance your journey.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i className="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
+                  <i className="ri-checkbox-circle-line"></i> we strive to make your experience hassle-free
                   amet.
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i className="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
+                  <i className="ri-checkbox-circle-line"></i> flexible rental options
                   amet.
                 </p>
               </div>
 
               <div className="about__section-item d-flex align-items-center">
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i className="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i className="ri-checkbox-circle-line"></i> convenient pickup and drop-off locations 
                 </p>
 
                 <p className="section__description d-flex align-items-center gap-2">
-                  <i className="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit
-                  amet.
+                  <i className="ri-checkbox-circle-line"></i> our friendly customer support team
+                 
                 </p>
               </div>
             </div>
