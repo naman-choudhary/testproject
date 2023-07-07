@@ -13,6 +13,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
+import Animate from "../Animate";
 
 const BASE_URL = "http://localhost:8000/api/v1";
 
@@ -118,6 +119,7 @@ const Cart = () => {
   };
 
   return (
+    <Animate>
     <React.Fragment>
       <br /><br /><br />
       {cartItems && cartItems.length !== 0 ? (
@@ -240,6 +242,7 @@ const Cart = () => {
         </DialogActions>
       </Dialog>
     </React.Fragment>
+    </Animate>
   );
 };
 

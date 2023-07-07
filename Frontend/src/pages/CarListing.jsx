@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet";
 import CommonSection from "../components/CommonSection";
 import CarItem from "../components/CarItem";
+import Animate from "../Animate";
 
 const CarListing = () => {
 	const url = "http://localhost:8000/cars";
@@ -46,6 +47,7 @@ const CarListing = () => {
 	};
 
 	return (
+		<Animate>
 		<Helmet title="Cars">
 			<CommonSection title="Car Listing" />
 
@@ -73,6 +75,7 @@ const CarListing = () => {
 				</Container>
 			</section>
 		</Helmet>
+		</Animate>
 	);
 };
 

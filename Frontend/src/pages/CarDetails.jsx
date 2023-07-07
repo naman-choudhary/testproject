@@ -5,6 +5,7 @@ import Helmet from "../components/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/BookingForm";
 import PaymentMethod from "../components/PaymentMethod";
+import Animate from "../Animate";
 
 const CarDetails = () => {
 	const [carData, setCarData] = useState([]);
@@ -33,6 +34,7 @@ const CarDetails = () => {
 	}
 
 	return (
+		<Animate>
 		<Helmet title={singleCarItem.carName}>
 			<section>
 				<Container>
@@ -151,6 +153,7 @@ const CarDetails = () => {
 				</Container>
 			</section>
 		</Helmet>
+		</Animate>
 	);
 };
 

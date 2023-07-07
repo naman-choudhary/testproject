@@ -8,6 +8,7 @@ import {Grid, Box, Button, Typography, Card} from "@mui/material"
 
 import axios from "axios"
 import { useNavigate } from 'react-router-dom'
+import Animate from '../Animate'
 
 const BASE_URL = "http://localhost:8000/api/v1";
 
@@ -95,6 +96,7 @@ const Order = () => {
 
   
   return (
+    <Animate>
     <React.Fragment>
 
         {orderItems && orderItems.length!==0?
@@ -132,6 +134,7 @@ const Order = () => {
           </Box>}
 
     </React.Fragment>
+    </Animate>
   )
 }
 
